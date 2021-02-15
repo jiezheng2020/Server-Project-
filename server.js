@@ -8,7 +8,7 @@ const server = http.createServer(function(req,res) {
         res.writeHead(200);
     }
     else if (req.url === "/Bad-Request")  {
-        console.log()
+        console.log('400')
         res.writeHead(400)
     }
     else if (req.url === "/Created")  {
